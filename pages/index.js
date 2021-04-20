@@ -7,7 +7,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Medidas Protetivas</title>  
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
       <header className={styles.background}>
         <div className={styles.content}>
@@ -16,15 +17,15 @@ export default function Home() {
             width={700}
             height={200}
           />
-          <div className={styles.whatsButton}>
-              <a href="https://api.whatsapp.com/send?phone=556196449431&text=Ol%C3%A1%2C%20vi%20seu%20artigo%20sobre%20medidas%20protetivas">
-                <Image 
-                  src="/img/button.png"
-                  width={550}
-                  height={80}
-                />
-              </a>
-            </div>
+          <a href="https://api.whatsapp.com/send?phone=556196449431&text=Ol%C3%A1%2C%20vi%20seu%20artigo%20sobre%20medidas%20protetivas" className={styles.button}>
+            <Image 
+              className={styles.whatsLogo}
+              src="/img/whatsapp-logo.png"
+              height={40}
+              width={60}
+            />
+            QUERO FALAR COM O ADVOGADO <br className={styles.br}/> AUTOR DO TEXTO
+          </a>
         </div>
       </header>
       <main className={styles.main}>
@@ -32,13 +33,6 @@ export default function Home() {
           AS MEDIDAS PROTETIVAS NA LEI MARIA DA PENHA <br className={styles.br}/> UM MECANISMO PARA COIBIR A 
           VIOLÊNCIA DOMÉSTICA <br className={styles.br}/> E FAMILIAR CONTRA A MULHER
         </h1>
-        <div className={styles.separador}>
-          <Image 
-            src="/img/separador.png"
-            width={89}
-            height={22}
-          />
-        </div>
         <h2 className={styles.subtitle}>
           A LEI MARIA DA PENHA
         </h2>
@@ -47,15 +41,8 @@ export default function Home() {
           assistência e proteção, cria mecanismos para coibir e prevenir a 
           violência doméstica e familiar contra a mulher
         </p>
-        <div className={styles.separador}>
-          <Image 
-            src="/img/separador.png"
-            width={89}
-            height={22}
-          />
-        </div>
         <h2 className={styles.subtitle}>
-          O TRÂMITE DE CASOS DE VIOLÊNCIA DOMÉSTICA <br/> AS MEDIDAS PROTETIVAS 
+          O TRÂMITE DE CASOS DE VIOLÊNCIA DOMÉSTICA <br className={styles.br}/> AS MEDIDAS PROTETIVAS 
           DE URGÊNCIA        
         </h2>
         <p className={styles.description}>
@@ -75,13 +62,6 @@ export default function Home() {
           As medidas mais comuns são: afastamento do lar e proibição de 
           aproximação e de contato com a mulher
         </p>
-        <div className={styles.separador}>
-          <Image 
-            src="/img/separador.png"
-            width={89}
-            height={22}
-          />
-        </div>
         <h2 className={styles.subtitle}>
           IMPORTANTE LEMBRAR
         </h2>
@@ -92,13 +72,6 @@ export default function Home() {
           de descumprimento. Caso as partes tenham interesse em retomar o 
           relacionamento, precisam antes revogar as medidas protetivas vigentes
         </p>
-        <div className={styles.separador}>
-          <Image 
-            src="/img/separador.png"
-            width={89}
-            height={22}
-          />
-        </div>
         <h2 className={styles.subtitle}>
           AS MEDIDAS PROTETIVAS PODEM SER RETIRADAS?
         </h2>
@@ -108,13 +81,6 @@ export default function Home() {
           Na maioria das vezes, o juiz ouve a ofendida em uma audiência antes de 
           decidir pela revogação, em um procedimento muito simples
         </p>
-        <div className={styles.separador}>
-          <Image 
-            src="/img/separador.png"
-            width={89}
-            height={22}
-          />
-        </div>
         <h2 className={styles.subtitle}>
           O QUE ACONTECE NA SEQUÊNCIA? 
         </h2>
@@ -149,13 +115,15 @@ export default function Home() {
       <footer>
         <div className={styles.footerBackground}>
           <div className={styles.footer}>
-            <div className={styles.whatsButton}>
-              <a href="https://api.whatsapp.com/send?phone=556196449431&text=Ol%C3%A1%2C%20vi%20seu%20artigo%20sobre%20medidas%20protetivas">
+            <div className={styles.footerButton}>
+              <a href="https://api.whatsapp.com/send?phone=556196449431&text=Ol%C3%A1%2C%20vi%20seu%20artigo%20sobre%20medidas%20protetivas" className={styles.button}>
                 <Image 
-                  src="/img/button.png"
-                  width={550}
-                  height={80}
+                  className={styles.whatsLogo}
+                  src="/img/whatsapp-logo.png"
+                  height={40}
+                  width={60}
                 />
+                QUERO FALAR COM O ADVOGADO <br className={styles.br}/> AUTOR DO TEXTO
               </a>
             </div>
           </div>
