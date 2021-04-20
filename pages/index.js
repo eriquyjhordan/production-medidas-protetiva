@@ -16,9 +16,15 @@ export default function Home() {
             width={700}
             height={200}
           />
-          <a href="https://google.com" className={styles.button}>
-            QUERO FALAR COM O ADVOGADO <br/> AUTOR DO CONTEÚDO
-          </a>
+          <div className={styles.whatsButton}>
+              <a href="https://api.whatsapp.com/send?phone=556196449431&text=Ol%C3%A1%2C%20vi%20seu%20artigo%20sobre%20medidas%20protetivas">
+                <Image 
+                  src="/img/button.png"
+                  width={550}
+                  height={80}
+                />
+              </a>
+            </div>
         </div>
       </header>
       <main className={styles.main}>
@@ -123,11 +129,12 @@ export default function Home() {
         <h2 className={styles.titleProfile}>QUEM SOMOS</h2>
         <div className={styles.perfil}>
           <Image 
-            src="/img/Antonio-jr.jpeg"
-            height={250}
-            width={250}
+            src="/img/perfil.png"
+            height={300}
+            width={400}
           />
         </div>
+        <h1 className={styles.subtitle}>Dr. Antonio Junior</h1>
         <p className={styles.profileDescription}>
           Advogado, OAB/DF nº 66.180, atuante em Direito Público. Membro da 
           Comissão de Assuntos Constitucionais da OAB/DF. Bacharelou-se em 
@@ -142,9 +149,15 @@ export default function Home() {
       <footer>
         <div className={styles.footerBackground}>
           <div className={styles.footer}>
-            <a href="https://google.com" className={styles.button}>
-                QUERO FALAR COM O ADVOGADO <br/> AUTOR DO CONTEÚDO
-            </a>
+            <div className={styles.whatsButton}>
+              <a href="https://api.whatsapp.com/send?phone=556196449431&text=Ol%C3%A1%2C%20vi%20seu%20artigo%20sobre%20medidas%20protetivas">
+                <Image 
+                  src="/img/button.png"
+                  width={550}
+                  height={80}
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className={styles.copyright}> 

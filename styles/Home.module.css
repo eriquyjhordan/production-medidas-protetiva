@@ -74,12 +74,7 @@
 }
 
 .perfil {
-  margin: 20px 0;
   text-align: center;
-}
-
-.perfil img {
-  border-radius: 50%;
 }
 
 .titleProfile {
@@ -128,7 +123,10 @@
   align-items: center;
   padding-top: 30px;
 }
- 
+
+.whatsButton {
+  margin-top: 4.5rem;
+}
 
 @media screen and (max-width: 767px) {
   .content {
@@ -154,6 +152,11 @@
 
   .br {
     display: none;
+  }
+
+  .whatsButton {
+    width: 450px;
+
   }
   
 }
