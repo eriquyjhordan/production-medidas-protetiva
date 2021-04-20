@@ -1,0 +1,161 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.background {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 100%), url(../public/img/fundo.png);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  border-bottom-style: none;
+  border-color: #000000;
+  border-left-style: none;
+  border-radius: 0px;
+  border-right-style: none;
+  border-top-style: none;
+  border-width: 1px;
+  height: 473px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(208, 2, 27);
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.main {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.title {
+  font-family: Lato, sans-serif; font-size: 30px; 
+  color: rgb(73, 63, 64);
+  text-align: center;
+  font-weight: bold;
+}
+
+.separador {
+  margin: 60px 0 20px 0;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Lato, sans-serif; font-size: 24px; 
+  color: rgb(208, 2, 27);
+  margin-bottom: 25px;
+}
+
+.description {
+  line-height: 1.5;
+  color: #333;
+  display: block;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.perfil {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.perfil img {
+  border-radius: 50%;
+}
+
+.titleProfile {
+  text-align: center;
+  margin: 35px 0;
+  font-size: 30px; 
+  font-family: Lato, sans-serif;
+}
+
+.profileDescription {
+  text-align: justify;
+  width: 65%;
+  margin: 0 auto;
+  line-height: 1.5;
+  color: #333;
+}
+
+.footerBackground {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 100%), url(../public/img/fundo.png);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  border-bottom-style: none;
+  border-color: #000000;
+  border-left-style: none;
+  border-radius: 0px;
+  border-right-style: none;
+  border-top-style: none;
+  border-width: 1px;
+  height: 247px;
+}
+
+.copyright {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+ 
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding: 150px 10px;
+  }
+
+  .description {
+    padding: 0 15px;
+  }
+
+  .profileDescription {
+    width: 85%;
+  }
+
+  .button {
+    margin-top: 80px;
+  }
+
+  .title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .br {
+    display: none;
+  }
+  
+}
+
+/* 860px, 600px, 300px, height: 250px  */
